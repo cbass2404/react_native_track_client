@@ -16,7 +16,7 @@ https://github.com/cbass2404/track_express_server
 1. Navigate to the directory you want the app stored in and run the following command in your terminal:
 
 ```
-$ git clone
+$ git clone https://github.com/cbass2404/react_native_track_client
 ```
 
 2. CD into the directory and run the following to install dependecies:
