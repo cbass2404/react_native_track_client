@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from "react-navigation-tabs";
 
 // context
 import { Provider as AuthProvider } from "./src/context/AuthContext";
+import { setNavigator } from "./src/navigationRef";
 
 // local files
 import AccountScreen from "./src/screens/AccountScreen";
@@ -34,7 +35,11 @@ const App = createAppContainer(switchNavigator);
 export default () => {
     return (
         <AuthProvider>
-            <App />
+            <App
+                ref={(navigator) => {
+                    setNavigator(navigator);
+                }}
+            />
         </AuthProvider>
     );
 };

@@ -30,3 +30,10 @@ $ npm install
 ```
 $ npm start
 ```
+
+4. In project root directory run the following command to create a virtual local storage for expo app:
+
+```
+$ react-native link @react-native-async-storage/async-storage
+$ npm start --reset-cache
+```
