@@ -43,3 +43,9 @@ $ npm start --reset-cache
 ```
 $ npx expo-cli install expo-location
 ```
+
+6. In your terminal run the following command to reset permissions for testing:
+
+```
+$adb shell pm reset-permissions
+```
