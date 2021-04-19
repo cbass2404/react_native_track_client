@@ -37,3 +37,9 @@ $ npm start
 $ react-native link @react-native-async-storage/async-storage
 $ npm start --reset-cache
 ```
+
+5. To install and track locations run the following command:
+
+```
+$ npx expo-cli install expo-location
+```
